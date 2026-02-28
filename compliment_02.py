@@ -1,8 +1,11 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Elizabeth Mautz
+# DATE: February 28, 2026
+# BRIEF DESCRIPTION:  user is prompted whether they want a compliment or not
+# if "yes" compliment is given
+# othe responses "No compliment for you!"
+# all "Thank you for playing."
 
 
 
@@ -15,7 +18,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+choice = (input("Would you like a compliment? "))
 
+if choice == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+    
+print("Thank you for playing.")
 
 
 
@@ -71,6 +81,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
+NO
 
 
 
